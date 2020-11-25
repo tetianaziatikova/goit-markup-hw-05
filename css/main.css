@@ -14,8 +14,6 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    width: 1200px;
-
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -33,10 +31,6 @@ img {
     display: block; 
 }
 
-main {
-    width: 1200px;
-    }
-
 /*================== Site header ==================*/
 .header-section {
     border-bottom: 1px solid #ECECEC;
@@ -47,6 +41,7 @@ main {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    width: 1200px;
 }
 
 .header-container {
@@ -346,7 +341,8 @@ main {
 .work-tekst {
     position: absolute;
     bottom: 0;
-
+    padding-bottom: 27px;
+    padding-top: 27px;
     width: 370px;
     height: 70px;
 
